@@ -1,0 +1,70 @@
+Types of Variable
+There are 3 types of variables local, instance and static
+
+Class Vars{
+int age=10; // instance variable (inside the class but not inside of method)
+static double weight=2.5; // static
+
+Void method(){
+String name="Kishan"; // local variable (if inside a method it is called a local variable
+
+}
+}
+local variables:
+If a variable is defined inside a method or loop or switch or any other block of code it is called local variable.
+
+instance variable:
+If a variable is not declared inside a method, but it is inside a class then it is called variable.
+
+Static variable:
+If a variable is not declared inside a method, but it is inside a class, and it has static keyword with
+it then it is called a static variable.
+
+When to use which types of variable:
+local variables:
+local variables should always be preferred over instance and static variables
+why because they occupy the  computer's memory for very, very short amount of time
+as soon as their purpose is served Java destroys them.
+Pros:
+Save memory
+Cons:
+not accessible outside of method/block of code
+instance variable:
+when we want to share something in all in multiple methods of a class and the information is
+expected to be different from object to object we should go with instance variables
+Pros:
+accessible in all the methods of a class
+Cons:
+occupy the computer's memory for longer than local variables.
+
+Static variables:
+if instance variable have the static keyword with them, they are called static variable
+Pros:
+single memory location for all the objects of that class
+cons:
+can hold only one value for all the object and stays even longer inside memory than instance variables.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Access modifiers:
+Access modifiers are keyword in java that define from where a certain variable, method or a class etc. can be accessed.
+There are 4 types of access in java that we can define using three keywords.
+keywords are:
+1) Private
+2) Keywords are Protected
+3) Public
+Types of access are 4:
+1) Private(Keyword is also called private)
+2) default(applied when no keyword is used)
+3) protected
+4) public
+Private access (Keyword is private):
+When we use the private with any of the variables , methods or class these can only be accessed with in that class.
+When we don't use any of the keywords default access is applied by java to those variables method or class etc. which means
+this thing can only be accessed from the same package.
+
+Protected access (we used the projected class):
+When projected access is applied class members(variables method etc) can be accessed from other packages but only in the
+class that participate in inheritance.
+
+Public access (public keyword):
+public means class member
