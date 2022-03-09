@@ -1,0 +1,51 @@
+Inheritance in java:
+It's a mechanism in java through which a child class gets the properties and method from a parents.
+
+Benefits:
+1) Saves time to code
+2) code duplication is reduced
+3) eExecution time faster
+
+Disadvantage:
+Classes are tightly coupled if we change something in parent class it is also changed in the child class.
+
+Types of inheritance:
+1) Single
+2) Hierarchical
+3) Multilevel
+4) Multiple (not supported in Java)
+
+Single inheritance:
+In single inheritance we have only one child and one parent class.
+participate in inheritance one as child one as parents.
+
+class parent{
+}
+class Child extends Parent{
+
+}
+
+Hierarchical:
+In Hierarchical inheritance we have a single parent class and multiple child classes
+class Parent{
+}
+class Child1 extends Parent{
+}
+class Child2 extends Parent{
+
+}
+
+Multilevel
+we have multiple levels of inheritance for example if we have classes A B C
+class C will be inherited from B and B will be inherited from A.
+class A{
+}
+class B extends A{
+}
+class C extends B{
+}
+==========================================================================================================
+super keyword:
+super keyword is like the "this" it refers to the parent class object for example we can access the fields method or
+constructors of parent class inside the child class using this keyword.
+
