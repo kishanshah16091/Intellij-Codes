@@ -1,0 +1,54 @@
+Method overloading in java:
+When same method name exists in a class but with different number of parameters or different data types of parameters of
+different sequence of parameters.
+
+Advantages of method overloading:
+   Flexibility of having same name methods in a class
+   End user gets the benefit that he does not need to remember different method names
+
+Rules:
+   We overload the constructors
+   we can overload the static methods as well
+   we can overload the main method as well
+
+                                            Imp
+                                            revises these before selenium
+                                            if else conditions
+                                            loops
+                                            methods
+                                            constructor and this keyword
+                                            Access modifier
+                                            types of variable
+
+Rules for static methods:
+Static method can't access instance fields directly
+instance method can access instance as well static directly
+
+
+Method overriding:
+ Method overriding happens when we have same name methods in the parent class and in the child class
+ we cna only override a method if we have inheritance relationship between two classes
+ we can't override the private methods because they don't participate in inheritance
+
+========================================================================================================================
+Method overriding in Java: (review)
+Method overriding happens when we have same name methods in parent and child class classes.
+Benefits
+ 1) Flexibility if we don't like something from the parents class we can override it and can provide
+    our own implementation.
+ 2) Same method can act differently depending upon the object on which call it.
+
+Rules:
+
+1) without inheritance method overriding is not possible.
+2) method signature should be same in parent class and in child class.
+3) if something does not participate in inheritance we can override it like constructors and private method.
+4) we can increase the visibility in the child class, but we can't decrease it for example we can go from default or
+   protected to public, but we can't do the reverse.
+5) we can't override a static method, but we can
+
+OOPS Main pillars:
+1) Inheritance (Code re-usability)
+2) Polymorphism ( less code dynamic code)
+3) AAbstraction
+4) Encapsulating
