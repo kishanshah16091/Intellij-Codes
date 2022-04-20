@@ -4,7 +4,7 @@ It's a mechanism in java through which a child class gets the properties and met
 Benefits:
 1) Saves time to code
 2) code duplication is reduced
-3) eExecution time faster
+3) execution time faster
 
 Disadvantage:
 Classes are tightly coupled if we change something in parent class it is also changed in the child class.

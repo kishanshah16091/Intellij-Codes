@@ -1,0 +1,6 @@
+FileHandling in java:
+  Reading and writing data to files is called file handling
+Things that we need read/write data to files.
+    1) File path, location of our file on our computer
+    2) Navigate to the location we use FileInputStream if we are reading and FileOutputStream if we are writing the data
+    3) A specfi

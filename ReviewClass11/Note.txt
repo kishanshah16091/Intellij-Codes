@@ -1,0 +1,94 @@
+Method Overriding in Java:
+    Method overriding happens when we have same method names with signature(Method name and
+    its parameters are called signature of a method) in a prent class and in a child class.
+
+Benefits:
+          1) Flexibility, With the help of method overriding child classes can provide its own implementation for
+             methods that are present in the parent class.
+          2) Polymorphism: same method can behave differently depending upon the object we call it.
+
+Rules:
+      1) There must be parent child relationship between the classes.
+      2) The method that we are tying to override must be present inside the child class with same name and parameters.
+      3) If something don't participate in inheritance we can't override it for example private methods, fields and
+         constructors.
+      4) If a method is declared final inside the parent class we can't override that method inside the child class.
+      5) We can't override the static methods but, we can redeclare them. for example the main methods.
+      6) We can't change the access modifier to be more restrictive.
+      7) Method return type should be same.
+
+Method Overloading                               VS                           Method Overriding
+Method signature should be different                              Method signature should be same
+Return type can be different                                      Return should be same
+We don't care about access modifiers                              Access modifiers can't be more restrictive
+we don't care about the non access modifiers                      we do care about the no access modifiers
+(final static abstract)
+we can overload constructors                                      We can't override constructors
+we achieve compile time polymorphism or early binding             run time polymorphism or dynamic polymorphism or late binding
+static polymorphism
+
+PolyMorphism:
+ployMorphism happens when object behaves differently. for example a method behave differently when we pass parameters or
+when we call the method different objects.
+
+Final Keyword in java
+final keyword is non access modifiers that can help restrict  some feature of OOPS
+when we use it the class name no other class name no other class can inherit from that class.
+when we use it method name we can't override those methods inside the child classes.
+when we use it fields we can't change their value in parent or child class, but we can have same name
+fields inside the child class
+
+Rules:
+       1) we can't use final and abstract together
+       2) Static and final cna be together
+
+
+Abstraction in java:
+is a process through which we hide the implementation details and show only the functionality to the user.
+for example if we have a method that calculates the tax of salaried person the person who wants to calculate his
+tax don't need to understand all the details
+
+Benefits:
+          1) Clean Code
+          2) less complexity
+          3) improves the maintainability of code
+
+we can achieve abstraction in java using java Abstract class and interfaces:
+A class declared with abstract keyword is called abstract class
+
+Rules:
+      1) As soon as we have a method abstract that class must also be abstract
+      2) Abstract methods don't have bodies inside the classes in which the are defined
+      3) A method can't be static and abstract at the same time.
+      4) fields can't be abstract
+      5) method can't be private and abstract
+      6) abstract keyword not allowed with constructors
+      7) we can have concrete and abstract methods in an abstract class.
+
+Interfaces in Java:
+are contracts that define how a method should be called classes provide the implementation for those methods
+
+Rules:
+       1) All the variables in an interface they are always public static and final
+       2) No instance fields and therefore no constructors'
+       3) method in interfaces are always public abstract
+       4) with interface we use the implement's keyword
+       5) we can have multiple inheritance in interfaces
+       6) we can have static method on interfaces
+       7) interfaces can extend other interfaces
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

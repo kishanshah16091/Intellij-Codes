@@ -1,0 +1,89 @@
+Abstract classes in Java:
+Abstract classes in java are the classes with abstract keyword.
+we use abstract classes to achieve abstraction.
+Abstraction:
+
+ Is the process of holding implementation details and only showing the functionality to end user.
+
+ Benefits:
+ 1) Reduces the complexity.
+ 2) improves the maintainability.
+ 3) can also enforce rules utp to a certain limit.
+
+ Disadvantageous:
+ 1) Classes get tightly coupled
+
+class Dog{
+String name;
+static String int legs=4;
+//concrete class
+}
+public abstract class Phone{
+String make;
+String model;
+static boolean has5G=true;
+
+}
+Rules:
+Abstract classes can have all the things that regular classes do, but we can't create their objects directly and if a
+class inheriting from the abstract class it must either provide the implementation for the abstract method or it must
+be declared abstract.
+1) we can't have final and abstract keywords with a method at the same time.
+2) we can't have static and abstract keywords with a method at the same time.
+3) abstract keywords with fields not allowed.
+
+Interface:
+Interfaces are also used to achieve abstraction in java
+we can create an interface with the keyword interface.
+
+interface Human{
+public static final int legs=2;
+public abstract void walk();
+
+}
+
+
+
+
+
+Abstraction in java:
+Hiding the implementation detail and providing the functionality only
+
+Two method to achieve abstractions:
+1) Abstract classes
+2) interfaces
+Abstract classes:
+Abstract classes are with abstract keyword.
+Interfaces:
+interfaces are the construct that we create with the help of interface keyword
+
+How to decide which one to use:
+1) prefer the interfaces over abstract classes.
+2) if two or more classes are closely related to each other go with abstract classes for example if we have to create
+   a lion class and horse class we should go with abstract class and should create an animal abstract class.
+   if two classes are not related to each to other for example an apple and cloth we should create an interface for that
+   if we want ti have a behaviour WashAble.
+Encapsulation:
+It is the fourth pillar of OOPs. it provides security and better control over the data of a class.
+we create classes
+we create classes and inside those classes we create private fields and method. these methods are classes getter setter
+methods, and we set and get values of the class fields with help of these methods instead of accessing and modifying
+them directly
+
+
+Exlipse VS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

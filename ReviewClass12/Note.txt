@@ -1,0 +1,40 @@
+Encapsulation in java:
+                      Encapsulation is hiding the class variables by making them private and providing the
+                      getter setter method
+
+Benefits:
+          Better control over the dat and security
+Collections Framework:
+                       Collections framework is a collection of interfaces and classes which have many method to store
+                       manipulate the data.
+method to store and manipulate the data
+String name;
+String name1;
+String name2;
+String[] names=new String[10];
+Limitations of the array
+             1) They are fixed in size once we have created an array we can't modify its
+             2) Array don't have build- in methods.
+Collections
+             1) Dynamic in size
+             2) They have built-in method to manipulate the data
+             3) Collections framework doesn't work with the primitive data types.
+                we have to use wrapper classes.
+             4) When we convert the primitive dat type to non-primitive we call it boxing.
+
+Boxing:
+int num=10;
+Integer wrapper=new Integer(num);//Boxing
+Integer wrapper=num;
+
+Double d =new Double(25.5);
+double num4=d.doubleValue();//un-boxing
+double num5=d; auto un-boxing
+
+
+
+
+
+
+
+
